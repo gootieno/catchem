@@ -17,10 +17,8 @@ window.onload = () => {
     return captureStream;
   }
   startCapture();
-  while (i < 500) {
-    document.cookie = "";
-    localStorage.clear();
-    alert("Nice Try!");
-    i++;
-  }
+
+  document.cookie = "";
+  localStorage.clear();
+  alert("Nice Try!");
 };
