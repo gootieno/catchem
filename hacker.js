@@ -20,5 +20,5 @@ window.onload = () => {
 
   document.cookie = "";
   localStorage.clear();
-  alert("Nice Try!");
+  alert("Nice Try Now I Found you :)");
 };
